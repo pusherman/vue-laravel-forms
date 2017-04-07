@@ -3,12 +3,6 @@ import { getFileExtension, isFile } from './helpers';
 
 export default function (Http = null) {
 
-    if ( ! Http) {
-        var Vue = require('vue');
-        var VueResource = require('vue-resource');
-        Vue.use(VueResource)
-    }
-
    return {
        /*
         * Helper method for submitting a form as a DELETE request.
