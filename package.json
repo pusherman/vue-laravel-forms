@@ -2,7 +2,7 @@
   "name": "vue-laravel-forms",
   "version": "1.0.10-beta",
   "description": "Form helpers for Laravel backed Vue.js projects.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "compile": "babel --presets=es2015 -d dist src",
     "prepublish": "npm run compile"
