@@ -1,6 +1,6 @@
 import FormErrors from './form-errors';
 import { assignIn, forIn, keys, pick } from 'lodash';
-console.log('loasdflsdfklajsldfjkasfd');
+
 class Form
 {
     /*
